@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body onload="choice()">
+    <div class="choice">
+        <div class="two_choices text_center">
+            <p class="fs-1" id="date" style="font-weight: bolder;"><span></span></p>
+            <p class="fs-2" style="font-weight: bolder;">IT'S <span id="hours"></span>:<span id="mins"></span></p>
+            <div class="line">
+
+            </div>
+            <p class="fs-1 fs-italic" style="font-weight: bolder;">What light mode would you prefer?</p>
+            <div class="row justify-content-evenly flexbox-center" style="margin-top: 60px">
+                <div class="col-xxl-5 col-xl-5 col-lg-5 col-md-5 col-sm-10 col-10">
+                    <button class="light">
+                        Light mode
+                    </button> 
+                </div>
+            
+            <div class="col-xxl-5 col-xl-5 col-lg-5 col-md-5 col-sm-10 col-10">
+                <button class="dark">
+                    Dark mode
+                </button>
+            </div>
+        </div>
+        </div>
+    </div>
+    <nav class="nav nav_top">
+        <div class="row">
+            <p class="fs-4">
+                YOUR NAME
+            </p>
+            <ul class="fs-5 none">
+                <li>
+                    <a href="#" class="black" >HOME</a>
+                </li>
+                <li>
+                    <a href="#" class="black" >ABOUT</a>
+                </li>
+                <li>
+                    <a href="#" class="black" >CONTACT US</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <button class="toggle">
+        <i class="fas fa-bars"></i>
+    </button>
+    <section id="home">
+        <div class="container">
+            <div class="row flexbox-center" >
+                <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12" >
+                    <h1 class="display-4 purple ">
+                        Hello everyone, this is Ishita Jain. Have a look at my profile.
+                    </h1><br>
+                    <h1 class="display-6 gray ">
+                       I am a computer science engineer.  
+                    </h1>
+                    <a href="#" class="btn-purple">
+                        Get started <span> &rarr; </span>
+                    </a>
+                </div>
+                <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12" >
+                    <img src="https://media-exp3.licdn.com/dms/image/C5603AQHUA00D5WMyLg/profile-displayphoto-shrink_200_200/0/1610517800924?e=1631750400&v=beta&t=iNU0SiCS2wjFvLn-hWxb--z5CYn5neEu3mVxYs86yeA" class="img-fluid" alt="">
+                </div>
+            </div>
+        </div>
+    </section>  
+    <section id="about">
+        <div class="container bg-white ">
+            <div class="row flexbox-center">
+                <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12" >
+                    <p class="lead purple-light ">WHO AM I</p>
+                    <p class="fs-3 purple"> 
+                        Final year Computer science engineer. Working in Milestone technoconsulting company as a Software developer.
+                    </p>
+                    <a href="#" class="btn-purple">
+                        Know more <span> &rarr; </span>
+                    </a>
+                </div>
+                <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12" >
+                    <img src="photo-.jpg" class="img-fluid img_hover_scale" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="margin_top_section text_center" id="values">
+        <div class="container bg-white ">
+            
+                <p class="lead purple-light">MY LEARNING</p>
+                <p class="fs-1 purple " style="font-weight: bold;">Some of the languages like</p>
+            
+            <div class="row justify-content-evenly " style="margin-top: 50px;" >
+                <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-12 col-12" id="box_shadow" >
+                    <img src="html5.jpg"  class="img-fluid" alt="" >
+                    <p class="fs-3 purple" >HTML5 </p>
+                    <p class="lead" style="font-size: 1.1rem;"></p>
+                </div>
+                <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-12 col-12" id="box_shadow">
+                    <img src="download.png"  id="img_values" class="img-fluid"  alt="">
+                    <p class="fs-3 purple">CSS3 </p>
+                </div>
+                <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-12 col-12" id="box_shadow">
+                    <img src="js.jpg" id="img_values" class="img-fluid"  alt="">
+                    <p class="fs-3 purple">JavaScript </p>
+                </div>
+            </div>
+            <div class="row justify-content-evenly " style="margin-top: 50px; " id="icons" >
+                <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-5 col-sm-5 col-12" id="box_shadow">
+                    <i class="far fa-smile-beam m_icon" style="color: blue; font-size: 50px; margin-bottom: 10px;"></i>
+                    <p class="fs-1 purple" style="font-weight: bolder">232</p>
+                    <p class="lead">HAPPY CLIENTS</p>
+                </div>
+                <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-5 col-sm-5 col-12" id="box_shadow">
+                    <i class="fas fa-smile-beam m_icon" style="color: blue; font-size: 50px; margin-bottom: 10px;"></i>
+                    <p class="fs-1 purple" style="font-weight: bold">232</p>
+                    <p class="lead">HAPPY CLIENTS</p>
+                </div>
+                <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-5 col-sm-5 col-12" id="box_shadow">
+                    <i class="fas fa-headphones-alt m_icon" style="color: blue; font-size: 50px; margin-bottom: 10px;"></i>
+                    <p class="fs-1 purple" style="font-weight: bolder">232</p>
+                    <p class="lead">HAPPY CLIENTS</p>
+                </div>
+                <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-5 col-sm-5 col-12" id="box_shadow">
+                    <i class="fas fa-user-friends" style="color: blue; font-size: 50px; margin-bottom: 10px;"></i>
+                    <p class="fs-1 purple" style="font-weight: bolder">232</p>
+                    <p class="lead">HAPPY CLIENTS</p>
+                </div>
+        </div>
+        </div>
+     </section>
+     <section class="margin_top_section text_center" id="values">
+        <div class="container bg-white ">
+            
+                <p class="lead purple-light">MY LEARNING</p>
+                <p class="fs-1 purple " style="font-weight: bold;">Some of the languages like</p>
+                <div class="row justify-content-evenly" style="margin-top: 50px;">
+                 <div class="col-xxl-5 col-xl-5 col-lg-5 col-md-5 col-sm-12 col-12" style="margin-bottom: 10px;">
+                     <img src="features.png" class="img-fluid" alt="">
+                 </div>
+                 <div class="col-xxl-5 col-xl-5 col-lg-5 col-md-5 col-sm-12 col-12">
+                     <div class="container-fluid">
+                         <div class="row flexbox-center justify-content-evenly">
+                            <div class="col-xxl-5 col-xl-5">
+                                <ul class="list-style-none fs-3 purple" style="font-weight: bolder">
+                                    <li class="" id="list">
+                                        <div class="container-fluid">
+
+
+                                        <div class="row justify-content-evenly box_shadow_li" >
+                                            <div class="col-xxl-2 col-xl-2">
+                                                <i class="fas fa-check icon_hover_list"></i>
+                                            </div>
+                                            <div class="col-xxl-9 col-xl-9">
+                                                HTML
+                                            </div>  
+                                        </div></div>
+                                        
+                                    </li>
+                                    <li class="" id="list">
+                                    <div class="row justify-content-evenly box_shadow_li" >
+                                        <div class="col-xxl-2 col-xl-2">
+                                            <i class="fas fa-check icon_hover_list"></i>
+                                        </div>
+                                        <div class="col-xxl-9 col-xl-9">
+                                            CSS3
+                                        </div>
+                                    </li> 
+                                    <li class="" id="list">
+                                        <div class="container-fluid">
+
+
+                                        <div class="row justify-content-evenly box_shadow_li" >
+                                            <div class="col-xxl-2 col-xl-2">
+                                                <i class="fas fa-check icon_hover_list"></i>
+                                            </div>
+                                            <div class="col-xxl-9 col-xl-9">
+                                                JAVASCRIPT
+                                            </div>  
+                                        </div></div>
+                                        
+                                    </li>
+                                </ul>
+                         </div>
+                         <div class="col-xxl-5 col-xl-5">
+                            <ul class="list-style-none fs-3 purple" style="font-weight: bolder">
+                                <li class="" id="list">
+                                    <div class="container-fluid">
+
+
+                                    <div class="row justify-content-evenly box_shadow_li" >
+                                        <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-3 col-3">
+                                            <i class="fas fa-check icon_hover_list"></i>
+                                        </div>
+                                        <div class="col-xxl-9 col-xl-9">
+                                            HTML
+                                        </div>  
+                                    </div></div>
+                                    
+                                </li>
+                                <li class="" id="list">
+                                <div class="row justify-content-evenly box_shadow_li" >
+                                    <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-3 col-3">
+                                        <i class="fas fa-check icon_hover_list"></i>
+                                    </div>
+                                    <div class="col-xxl-9 col-xl-9">
+                                        CSS3
+                                    </div>
+                                </li> 
+                                <li class="" id="list">
+                                    <div class="container-fluid">
+
+
+                                    <div class="row justify-content-evenly box_shadow_li" >
+                                        <div class="col-xxl-2 col-xl-2">
+                                            <i class="fas fa-check icon_hover_list"></i>
+                                        </div>
+                                        <div class="col-xxl-9 col-xl-9">
+                                            JAVASCRIPT
+                                        </div>  
+                                    </div></div>
+                                    
+                                </li>
+                            </ul>
+                     </div>
+                     </div>
+                 </div>
+            </div>
+        </div>
+    </section>
+    <section id="about" class="margin_top_section">
+        <div class="container bg-white ">
+            <div class="row flexbox-center">
+                <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12" >
+                    <p class="lead purple-light ">WHO AM I</p>
+                    <p class="fs-3 purple"> 
+                        Final year Computer science engineer. Working in Milestone technoconsulting company as a Software developer.
+                    </p>
+                    <a href="#" class="btn-purple">
+                        Know more <span> &rarr; </span>
+                    </a>
+                </div>
+                <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12" >
+                    <img src="features-2.png" class="img-fluid img_hover_scale" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section  id="graph" class="margin_top_section text_center">
+        <div class="container bg-white ">
+                <p class="fs-1 purple " style="font-weight: bolder;">Some of the languages like</p>
+                <div class="row flexbox-center justify-content-evenly" style="margin-top: 50px;">
+                 <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-7 col-sm-12 col-12" style="margin-bottom: 10px;">
+                     <img src="features-3.png" class="img-fluid" alt="">
+                 </div>
+                 <div class="col-xxl-7 col-xl-7 col-lg-7 col-md-12 col-sm-12 col-12">
+                     <div class="container-fluid">
+                         <div class="row flexbox-center justify-content-evenly" style="margin-top: 50px">
+                            <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+                                <ul class="list-style-none fs-3 purple" style="font-weight: bolder">
+                                    <li class="" id="list">
+                                        <div class="container-fluid">
+
+
+                                        <div class="row flexbox-center justify-content-evenly" >
+                                            <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-3 col-3">
+                                                <i class="fas fa-chart-line icon_hover_list" style="font-size: 50px"></i>
+                                            </div>
+                                            <div class="col-xxl-9 col-xl-9 col-lg-9 col-md-9 col-sm-9 col-9">
+                                               <p class="fs-4 purple">
+                                                   Hello 
+                                               </p>
+                                               <p class="small gray">
+                                                   This is Ishita jain. This is my profile.
+                                               </p>
+                                            </div>  
+                                        </div></div>
+                                        
+                                    </li>
+                                    <li class="" id="list">
+                                    <div class="row flexbox-center justify-content-evenly" >
+                                        <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-3 col-3">
+                                            <i class="fas fa-chart-line icon_hover_list" style="font-size: 50px"></i>
+                                        </div>
+                                        <div class="col-xxl-9 col-xl-9 col-lg-9 col-md-9 col-sm-9 col-9">
+                                            <p class="fs-4 purple">
+                                                Hello everyone
+                                            </p>
+                                            <p class="small gray">
+                                                This is Ishita jain. This is my profile.
+                                            </p>
+                                        </div>
+                                    </li> 
+                                    <li class="" id="list">
+                                        <div class="container-fluid">
+
+
+                                        <div class="row flexbox-center justify-content-evenly" >
+                                            <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-3 col-3">
+                                                <i class="fas fa-chart-line icon_hover_list" style="font-size: 50px"></i>
+                                            </div>
+                                            <div class="col-xxl-9 col-xl-9 col-lg-9 col-md-9 col-sm-9 col-9">
+                                                <p class="fs-4 purple">
+                                                    Hello everyone
+                                                </p>
+                                                <p class="small gray">
+                                                    This is Ishita jain. This is my profile.
+                                                </p>
+                                            </div>  
+                                        </div></div>
+                                        
+                                    </li>
+                                </ul>
+                         </div>
+                         <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+                            <ul class="list-style-none fs-3 purple" style="font-weight: bolder">
+                                <li class="" id="list">
+                                    <div class="container-fluid">
+
+
+                                    <div class="row flexbox-center justify-content-evenly" >
+                                        <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-3 col-3">
+                                            <i class="fas fa-chart-line icon_hover_list" style="font-size: 50px"></i>
+                                        </div>
+                                        <div class="col-xxl-9 col-xl-9 col-lg-9 col-md-9 col-sm-9 col-9">
+                                            <p class="fs-4 purple">
+                                                Hello everyone
+                                            </p>
+                                            <p class="small gray">
+                                                This is Ishita jain. This is my profile.
+                                            </p>
+                                        </div>  
+                                    </div></div>
+                                    
+                                </li>
+                                <li class="" id="list">
+                                <div class="row flexbox-center justify-content-evenly" >
+                                    <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-3 col-3">
+                                        <i class="fas fa-chart-line icon_hover_list" style="font-size: 50px"></i>
+                                    </div>
+                                    <div class="col-xxl-9 col-xl-9 col-lg-9 col-md-9 col-sm-9 col-9">
+                                        <p class="fs-4 purple">
+                                            Hello everyone
+                                        </p>
+                                        <p class="small gray">
+                                            This is Ishita jain. This is my profile.
+                                        </p>
+                                    </div>
+                                </li> 
+                                <li class="" id="list">
+                                    <div class="container-fluid">
+
+
+                                    <div class="row flexbox-center justify-content-evenly" >
+                                        <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-3 col-3">
+                                            <i class="fas fa-chart-line icon_hover_list" style="font-size: 50px"></i>
+                                        </div>
+                                        <div class="col-xxl-9 col-xl-9 col-lg-9 col-md-9 col-sm-9 col-9">
+                                            <p class="fs-4 purple">
+                                                Hello everyone
+                                            </p>
+                                            <p class="small gray">
+                                                This is Ishita jain. This is my profile.
+                                            </p>
+                                        </div>  
+                                    </div></div>
+                                    
+                                </li>
+                            </ul>
+                     </div>
+                     </div>
+                 </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="margin_top_section text_center" id="cards">
+        <div class="container bg-white ">
+                <p class="lead purple-light">Services</p>
+                <p class="fs-1 purple " style="font-weight: bold;">Some of the services like</p>
+        </div>
+        <div class="row flexbox-center justify-content-evenly" >
+            <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-3 col-3">
+                <i class="far fa-comments icon_hover_list" style="font-size: 50px"></i>
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>      
+</body>
+</html>
